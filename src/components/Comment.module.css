@@ -1,0 +1,90 @@
+.comment {
+  margin-top: 3.2rem;
+  width: 100%;
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+button {
+  border: none;
+  background: transparent;
+  color: var(--gray-100);
+  font-weight: bold;
+}
+
+.avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 8px;
+
+
+}
+
+.commentBox {
+  flex: 1;
+}
+
+.commentContent {
+  background: var(--gray-700);
+  padding: 1.6rem;
+  border-radius: 8px;
+}
+
+.commentContent header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.commentAuthor {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.commentAuthor time {
+  font-size: 1.2rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+  display: block;
+}
+
+.commentContentP {
+  margin-bottom: 1.6rem;
+  color: var(--gray-300);
+}
+
+.buttonAp {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--gray-400);
+  transition: all 0.1s;
+}
+
+.buttonAp:hover {
+  color: var(--green-300);
+}
+
+.buttonAp span::before {
+  content: "\2022";
+  padding: 0 0.4rem 0 0;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+
+.deleteIcon:hover {
+  color: var(--red-500);
+}
